@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!--<bean id="aaa" class="ooo.Animal"/>-->
+    <!--<context:annotation-config />-->
+    <!--<context:component-scan base-package="ooo" />-->
+
+    <!--<task:scheduler id="mySchedule" pool-size="100" />-->
+    <!--<task:annotation-driven scheduler="mySchedule" mode="proxy" />-->
+
+    <!--<task:scheduled-tasks scheduler="mySchedule">-->
+        <!--<task:scheduled ref="aaa" method="hahaha" cron="0/3 * * * * ?" />-->
+    <!--</task:scheduled-tasks>-->
+</beans>
